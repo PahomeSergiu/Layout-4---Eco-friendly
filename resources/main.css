@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-wrapper {
+    list-style: none;
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.menu-wrapper a {
+    text-decoration: none;
+    color: #756f7b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;  
+}
+
+.sign-up {
+    display: inline-block;
+    width: 80px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid #756f7b 1px;
+    text-align: center;
+}
+
+.main-container {
+    padding: 0 0 0 40px;
+}
+
+h1, h2 {
+    color: #3d7ffa;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 69px;
+    letter-spacing: 2.5px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px; 
+    letter-spacing: 8px;
+    margin: 0 0 40px 0;
+}
+
+.horizontal-line {
+    border: solid #3d7ffa 1px;
+    width: 250px;
+}
+
+p {
+    padding-top: 20px;
+    height: 110px;
+    color: #3a80f9;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: justify;
+    width: 380px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    background-image: linear-gradient( to right, #52d2ff, #4db5fe);
+    display: flex;
+    justify-content: center; 
+}
+
+.button a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    align-self:center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
